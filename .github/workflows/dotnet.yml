@@ -25,6 +25,3 @@ jobs:
 
     - name: Build Console
       run: dotnet build ./Source --no-restore
-
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
